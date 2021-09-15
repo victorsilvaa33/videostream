@@ -3,7 +3,7 @@ import os
 from pytgcalls import GroupCallFactory
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from pyyoutube import ytdl
+from py_youtube import ytdl
 
 API_ID = os.environ.get("API_ID",12345)
 API_HASH = os.environ.get("API_HASH","")
